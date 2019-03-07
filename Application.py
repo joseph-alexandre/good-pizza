@@ -14,7 +14,7 @@ plt.xlabel('Diâmetro(cm)')
 plt.ylabel('Preço(R$)')
 # Define o título do plot
 plt.title('Diâmetro x Preço')
-# Plota o gráfico com os dados. O terceiro parâmetro "k." é uma format string, pra definir se no gráfico, será uma linha ou pontos e etc.
+# Plota o gráfico com os dados. O terceiro parâmetro "k." é uma format string, pra definir se no gráfico, será em linha ou pontos e etc.
 plt.plot(Diametros, Precos, 'k.')
 # Define os limites dos eixos. Afeta na visualização dos dados.
 plt.axis([0, 60, 0, 60])
